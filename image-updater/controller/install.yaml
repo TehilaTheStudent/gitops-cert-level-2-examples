@@ -103,7 +103,7 @@ spec:
       containers:    
       - args:
           - '--interval'
-          - 1m
+          - 1s
         command:
           - /usr/local/bin/argocd-image-updater
           - run         
