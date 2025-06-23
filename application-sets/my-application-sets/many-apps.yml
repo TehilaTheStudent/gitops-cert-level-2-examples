@@ -9,7 +9,7 @@ spec:
       repoURL: https://github.com/tehilathestudent/gitops-cert-level-2-examples.git
       revision: HEAD
       directories:
-      - path: application-sets/example-apps/*
+      - path: application-sets/example-apps/
   template:      
     metadata:
       name: '{{path.basename}}'
